@@ -1,0 +1,7 @@
+G:\Users\K\Desktop\tthk\game jam 2023\site\TTHKgamejam2023\TTHKgamejam2023\obj\Docker\publish\TTHKgamejam2023.exe
+G:\Users\K\Desktop\tthk\game jam 2023\site\TTHKgamejam2023\TTHKgamejam2023\obj\Docker\publish\appsettings.Development.json
+G:\Users\K\Desktop\tthk\game jam 2023\site\TTHKgamejam2023\TTHKgamejam2023\obj\Docker\publish\appsettings.json
+G:\Users\K\Desktop\tthk\game jam 2023\site\TTHKgamejam2023\TTHKgamejam2023\obj\Docker\publish\TTHKgamejam2023.dll
+G:\Users\K\Desktop\tthk\game jam 2023\site\TTHKgamejam2023\TTHKgamejam2023\obj\Docker\publish\TTHKgamejam2023.deps.json
+G:\Users\K\Desktop\tthk\game jam 2023\site\TTHKgamejam2023\TTHKgamejam2023\obj\Docker\publish\TTHKgamejam2023.runtimeconfig.json
+G:\Users\K\Desktop\tthk\game jam 2023\site\TTHKgamejam2023\TTHKgamejam2023\obj\Docker\publish\TTHKgamejam2023.pdb

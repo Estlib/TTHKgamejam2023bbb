@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3z4w50RwG0i64Y53h8i39MO0NtQxb/vddd4AXGJEK5cpJCfS5JGBwjxclwmyBPjYtPZxa8OyzvfZl6+oW9DWxA==",
+  "success": true,
+  "projectFilePath": "G:\\Users\\K\\Desktop\\tthk\\game jam 2023\\site\\TTHKgamejam2023\\TTHKgamejam2023\\TTHKgamejam2023.csproj",
+  "expectedPackageFiles": [
+    "G:\\Users\\K\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
+  "logs": []
+}

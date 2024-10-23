@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Itch.Io Info";
+    DateTime votingrelease = new DateTime(2023, 11, 07);
+}
+@*@if (DateTime.Now < votingrelease)
+{
+    <div class="text-danger">
+        <p>Link lehele kuvatakse @votingrelease.Date kuupäeval</p>
+        @Html.Partial("_NotAvailable")
+    </div>
+}
+@if (DateTime.Now >= votingrelease)
+{*@
+    <div class="text-center">
+        <h4>TTHK Sügisene Game Jam 2023</h4>
+        <h1 class="display-4">Hääletamine</h1>
+        <img src="~/images/leeftransAMEDIUM.png" alt="transparent pixel leaf A" />
+        <img src="~/images/pompkentransMEDIUM.png" alt="transparent pixel pumpkin" />
+        <img src="~/images/leeftransBMEDIUM.png" alt="transparent pixel leaf B" />
+        <br />
+    </div>
+
+    <h2><img src="~/images/leeftransA.png" alt="transparent pixel leaf A" />Kuidas Hääletada? <img src="~/images/leeftransB.png" alt="transparent pixel leaf B" /> </h2>
+    <p class="text-start">
+    <img src="~/images/pompkentrans.png" alt="transparent pixel pumpkin" />Hääletamine toimub Itch.io keskkonnas, Hääletada saab iga Game Jami sisestatud mängu poolt mängu enda lehel.
+    <br />
+    Hääletamine algab pärast seda, kui mängude sisestusaeg on läbi. Hääletamiseks palun suundu Game Jami Itch.Io lehele.
+        <br />
+        <br />
+    <a href="https://itch.io/jam/383735/preview" class="btn btn-primary">TTHK Game Jam 2023</a>
+    </p>
+    <br />
+    <br />
+    <br />
+@*}*@

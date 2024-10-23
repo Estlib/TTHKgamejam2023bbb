@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Tulemused";
+    DateTime resultrelease = new DateTime(2023, 11, 13);
+}
+@*@if (DateTime.Now < resultrelease)
+{
+    <div class="text-danger">
+        <p>Link lehele kuvatakse @resultrelease.Date kuupäeval</p>
+        @Html.Partial("_NotAvailable")
+    </div>
+}
+@if (DateTime.Now >= resultrelease)
+{*@
+    <div class="text-center">
+        <h4>TTHK Sügisene Game Jam 2023</h4>
+        <h1 class="display-4">Tulemused</h1>
+        <img src="~/images/leeftransAMEDIUM.png" alt="transparent pixel leaf A" />
+        <img src="~/images/pompkentransMEDIUM.png" alt="transparent pixel pumpkin" />
+        <img src="~/images/leeftransBMEDIUM.png" alt="transparent pixel leaf B" />
+        <br />
+    </div>
+
+    <h2><img src="~/images/leeftransA.png" alt="transparent pixel leaf A" />Game Jami parima tulemuse saavutanud Projektid <img src="~/images/leeftransB.png" alt="transparent pixel leaf B" /> </h2>
+    <p class="text-start">
+        <br />
+        <table class="table">
+            <thead>
+            <th>Saavutatud Koht</th>
+            <th>Mängu nimi</th>
+            <th>Autor(id)</th>
+            <th>Pilt</th>
+            <th>Link</th>
+            <th>Žanr</th>
+            <th>Rühm</th>
+            <th></th>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Esimene koht<br /><img src="~/images/pompkentrophy1sttrans.png" alt="transparent pixel pumpkin trophy for first place" /></td>
+                    <td>Super Pumpkin</td>
+                    <td><a href="https://makud3v.itch.io/">makud3v</a></td>
+                    <td><img src="https://img.itch.zone/aW1hZ2UvMjM1MTk1Mi8xMzkzMTk2MC5wbmc=/original/avLovb.png" height="232" /> </td>
+                    <td> <a href="https://makud3v.itch.io/super-pumpkin" class="btn btn-primary">Mängi</a></td>
+                    <td>Platformer</td>
+                    <td>TARpe22</td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    </p>
+    <br />
+    <br />
+    <br />
+@*}*@
